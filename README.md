@@ -15,7 +15,7 @@ known as “spaghetti code.”
 ------------------------------
 
 
-## Singleton Pattern
+### Singleton Pattern
 
 Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 
@@ -23,26 +23,26 @@ This pattern involves a single class which is responsible to create an object wh
  Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
 
 
-## Factory Method Pattern
+### Factory Method Pattern
 ----------------------
 
 ## Structural Patterns:
 
-## Facade Pattern
+### Facade Pattern
 
-## Adapter Pattern
+### Adapter Pattern
 
-## Composite Pattern
+### Composite Pattern
 
-## Proxy Pattern
+### Proxy Pattern
 
-## Decorator Pattern
+### Decorator Pattern
 
 --------------------------
 
 ## Behavioural Patterns:
 
-## Template Method Pattern
+### Template Method Pattern
 
 The template method pattern defines an algorithm’s steps
 generally, by deferring the implementation of some steps to
