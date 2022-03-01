@@ -142,3 +142,12 @@ one object to the other. Commands can also be stored in a log
 list, so if the software crashes unexpectedly, users can redo all
 the recent commands.
 
+
+
+### Mediator Pattern
+Imagine that you want the house of the future. You want your house to change its own temperature
+once you have left, to brew your coffee when the alarm on your phone goes off, and to load the
+latest Globe and Mail news issue onto your tablet if you're home and it's Saturday morning.
+This plan starts out nicely; you are an accomplished software developer, so making these different
+objects talk is no big deal to you.
+Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
