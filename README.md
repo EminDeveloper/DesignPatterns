@@ -11,7 +11,7 @@ used to help fix tangled, structureless software code, also
 known as “spaghetti code.”
 
 
-## Creational Patterns
+## Creational Patterns:
 ------------------------------
 
 
@@ -26,7 +26,7 @@ This pattern involves a single class which is responsible to create an object wh
 ## Factory Method Pattern
 ----------------------
 
-## Structural Patterns
+## Structural Patterns:
 
 ## Facade Pattern
 
@@ -40,7 +40,7 @@ This pattern involves a single class which is responsible to create an object wh
 
 --------------------------
 
-
+## Behavioural Patterns:
 
 ## Template Method Pattern
 
