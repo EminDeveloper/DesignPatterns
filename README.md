@@ -75,3 +75,15 @@ chain will try to process it. If the handler can process the
 request, then the request ends with this handler. However, if
 the handler cannot handle the request, then the request is sent to the next handler in the chain. This process will continue until
 a handler can process the request.
+
+
+### State Pattern
+Objects in your code are aware of their current state. They can
+choose an appropriate behavior based on their current state.
+When their current state changes, this behavior can be altered -
+this is the state design pattern.
+This pattern should be primarily used when you need to change
+the behavior of an object based upon changes to its internal
+state or the state it is in at run-time. This pattern can also be
+used to simplify methods with long conditionals that depend
+on the object’s state.
