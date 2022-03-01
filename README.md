@@ -62,3 +62,16 @@ subclass. After using generalization, objects can be more
 effectively reused. Inheritance allows functionality to be shared
 between classes and enables clearer and more self-explanatory
 code.
+
+
+
+### Chain of Responsibility Pattern 
+The chain of responsibility design pattern is a chain of
+objects that are responsible for handling requests. In software
+design, these objects are handler objects that are linked
+together.
+When a client object sends a request, the first handler in the
+chain will try to process it. If the handler can process the
+request, then the request ends with this handler. However, if
+the handler cannot handle the request, then the request is sent to the next handler in the chain. This process will continue until
+a handler can process the request.
