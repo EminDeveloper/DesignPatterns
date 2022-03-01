@@ -1,4 +1,9 @@
-# Design Pattern - Singleton Pattern
+# What is a Design Pattern?
+
+
+
+
+## Design Pattern - Singleton Pattern
 
 Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
 
@@ -10,33 +15,7 @@ This pattern involves a single class which is responsible to create an object wh
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Template Method Pattern
+## Template Method Pattern
 
 The template method pattern defines an algorithm’s steps
 generally, by deferring the implementation of some steps to
