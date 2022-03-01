@@ -87,3 +87,58 @@ the behavior of an object based upon changes to its internal
 state or the state it is in at run-time. This pattern can also be
 used to simplify methods with long conditionals that depend
 on the object’s state.
+
+
+### Command Pattern
+The command pattern encapsulates a request as an object of
+its own. In general, when an object makes a request for a
+second object to do an action, the first object would call a
+method of the second object and the second object would
+complete the task. There is direct communication between the
+sender and receiver object.
+The command pattern creates a command object between the
+sender and receiver. This way, the sender does not have to
+know about the receiver and the methods to call.
+In a command pattern, a sender object can create a command
+object. However, an invoker is required to make the command
+object do what it’s supposed to do and get the specific receiver
+object to complete the task. An invoker is therefore an object
+that invokes the command objects to complete whatever task it
+is supposed to do. A command manager can also be used that
+basically keeps track of the commands, manipulates them, and
+invokes them.
+Purposes of the Command Pattern
+There are many different purposes for using the command
+pattern.
+One is to store and schedule different requests. If requests are
+turned into command objects in your software, then they can
+be stored into lists and manipulated before they are completed.
+They can also be placed onto a queue so that different
+commands can be scheduled to be completed at different
+times. For example, the command pattern can be used to have
+an alarm ring in calendar software. A command object could be
+created to ring the alarm, and this command could be placed
+into a queue so that it is completed when the event is
+scheduled to occur.
+Another purpose for the command pattern is to allow
+commands to be undone or redone. For example, edits can be
+undone or redone in a document. Imagine that the software has
+two lists: a history list, which holds all the commands that have
+been executed, and a redo list, which will be used to put
+commands that have been undone. Each time a command is
+requested, a command object is created and executed. When
+the command is completed, it goes to the history list. If you
+undo a command, then the software would go to the history list
+and ask the most recent command executed to undo itself, and
+put it on the redo list. Alternately, if a user needs to redo, the
+software would take the most recent command undone in the
+redo list, and move it onto the history list again. The redo list
+will be emptied every time a command is executed because
+usually, you can’t redo a previous edit after a new edit has been
+made.
+The command pattern lets you do things to requests that you
+wouldn’t be able to do if they were simple method calls from
+one object to the other. Commands can also be stored in a log
+list, so if the software crashes unexpectedly, users can redo all
+the recent commands.
+
