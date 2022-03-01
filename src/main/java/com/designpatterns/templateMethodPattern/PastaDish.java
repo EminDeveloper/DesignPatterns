@@ -26,11 +26,11 @@ public abstract class PastaDish {
     }
 
     private void cookPasta() {
-        System.out.println("Boiling water");
+        System.out.println("Cook Pasta");
     }
 
     private void drainAndPlate() {
-        System.out.println("Boiling water");
+        System.out.println("Drain And Plate");
     }
 
 }
