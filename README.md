@@ -151,3 +151,18 @@ latest Globe and Mail news issue onto your tablet if you're home and it's Saturd
 This plan starts out nicely; you are an accomplished software developer, so making these different
 objects talk is no big deal to you.
 Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
+
+
+### Observer Pattern
+The observer design pattern is a pattern where a subject
+keeps a list of observers. Observers rely on the subject to
+inform them of changes to the state of the subject.
+In an observer design pattern, there is generally a Subject
+superclass, which would have an attribute to keep track of all
+the observers. There is also an Observer interface with a
+method so that an observer can be notified of state changes to
+the subject. The Subject superclass may also have subclasses
+that implement the Observer interface. These elements create
+the relationship between the subject and observer.
+
+There are many different possible examples, but you could have said an auction and bidder, or news broadcast and viewer. These are examples of the observer design pattern. In each of these, relationships are generally one subject to many observers. One auction is observed by many bidders. One broadcast is observed by many viewers.
