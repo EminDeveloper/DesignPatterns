@@ -169,6 +169,10 @@ There are many different possible examples, but you could have said an auction a
 
 
 ### Model View Controller
+Model, View, Controller (MVC) pattern is a pattern that
+should be considered for use with user interfaces. MVC
+patterns divide the responsibilities of a system that offers a
+user interface into three parts: model, view, and controller.
 
 
 =====================================
