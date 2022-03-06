@@ -173,7 +173,47 @@ Model, View, Controller (MVC) pattern is a pattern that
 should be considered for use with user interfaces. MVC
 patterns divide the responsibilities of a system that offers a
 user interface into three parts: model, view, and controller.
-
+The Model is going to contain the underlying data, state, and
+logic that users want to see and manipulate through an
+interface. It is the “back end”, or the underlying software. A key
+aspect of the MVC pattern is that the model is self-contained. It
+has all of the state, methods, and other data needed to exist on
+its own. The View gives users the way to see the model in the
+way they expect and allows them to interact with it or at least
+parts of it. It is the “front end” or the presentation layer of the
+software. A model could have several views that present different parts of the model, or present the model in different
+ways.
+When a value changes in the model, the view needs to be
+notified, so it can update itself accordingly. The observer
+design pattern allows this to happen. In an observer pattern,
+observers are notified when the state of the subject changes. In
+this case, the view is an observer. When the model changes, it
+notifies all of the views that are subscribed to it.
+The view may also present users with ways to make changes to
+the data in the underlying model. It does not directly send
+requests to the model, however. Instead, information about the
+user interaction is passed to a Controller. The controller is
+responsible for interpreting requests and interacts with
+elements in the view, and changing the model. The view is
+therefore only responsible for the visual appearance of the
+system. The model focuses only on managing the information
+for the system.
+The MVC pattern uses the separation of concerns design
+principle to divide up the main responsibilities in an interactive
+system. The controller ensures that the views and the model
+are loosely coupled. The model corresponds to entity objects,
+which are derived from analyzing the problem space for the
+system. The view corresponds to a boundary object, which is
+at the edge of your system that deals with users. The controller
+corresponds to a control object, which receives events and
+coordinates actions.
+In order to examine the implementation of this pattern in Java
+code, let us consider an example. Imagine you are creating an
+interface for a grocery store, where cashiers can enter orders,
+which are displayed. Customers and cashiers should be able to
+see the list of items entered into the order with a barcode
+scanner and see the total bill amount. Cashiers should also be
+able to make corrections if necessary.
 
 =====================================
 
