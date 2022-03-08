@@ -261,12 +261,14 @@ able to make corrections if necessary.
 The open/closed principle states that classes should be open
 for extension but closed to change.
 A class is considered “closed” to editing once it has:
+
 ● Been tested to be functioning properly. The class should
 behave as expected.
+
 ● All the attributes and behaviors are encapsulated,
-● Been proven to be stable within your system. The class
-or any instance of the class should not stop your system
-from running or do it harm.
+
+● Been proven to be stable within your system. The class or any instance of the class should not stop your system from running or do it harm.
+
 Although the principle is called “closed”, it does not mean that
 changes cannot be made to a class during development. Things
 should change during the design and analysis phase of your
