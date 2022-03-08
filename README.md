@@ -274,3 +274,7 @@ effects. A “closed” class should still be fixed if any bugs or unexpected be
 then the “open” side of the principle comes into play. An “open” class is one that can still be built upon. There are two different
 ways to extend a system with the open principle. The first way is through the inheritance of a superclass. Inheritance can be used to simply extend a class that is
 considered closed when you want to add more attributes and behaviors. The subclasses will have the original functions of the superclass, but extra features can be added in the subclasses. This helps preserve the integrity of the superclass, so if the extra features of the subclasses are not needed, the original class can still be used. Note that subclasses can also be extended, so this allows the open/closed principle to continually extend your system as much as desired.
+If you want to limit a class so that it is no longer extendable, it can be declared as “final” to prevent further inheritance. This keyword can also be used for methods.
+The second way a class can be open is when the class is abstract and enforces the open/closed principle through polymorphism. An abstract class can declare abstract methods
+with just the method signatures. Each concrete subclass must provide its own implementation of these methods. The methods in the abstract superclass are preserved, and the
+system can be extended by providing different implementations for each method. This is useful for behaviors like sorting or searching.
