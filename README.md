@@ -278,3 +278,15 @@ If you want to limit a class so that it is no longer extendable, it can be decla
 The second way a class can be open is when the class is abstract and enforces the open/closed principle through polymorphism. An abstract class can declare abstract methods
 with just the method signatures. Each concrete subclass must provide its own implementation of these methods. The methods in the abstract superclass are preserved, and the
 system can be extended by providing different implementations for each method. This is useful for behaviors like sorting or searching.
+
+An interface can also enable polymorphism, but remember that it will not be able to define a common set of attributes. The open/closed principle is used to keep stable parts of a system separate from varying parts. It allows the addition of new features to a system, but without the expense of disrupting working parts. Extension, unlike change, allows
+varying parts to be worked upon while avoiding unwanted side effects in the stable parts. Varying parts should be kept isolated from one another, as these extensions will eventually become stable, and there is no guarantee they will all be finished at the same time, as some features may be more
+complex, larger, or more ambitious than others. All design patterns use the open/closed principle in some way. They all follow the idea that some part of your system should
+be able to extend and be built upon through some means like inheritance or implementing an interface. It may not always be possible to practice this principle, but it is something to strive towards.
+The open/closed principle:
+
+● Helps keep a system stable by “closing” classes to change.
+
+● Allows a system to open for extension through inheritance or interfaces.
+
+
