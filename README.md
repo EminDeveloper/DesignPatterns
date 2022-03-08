@@ -254,3 +254,39 @@ able to make corrections if necessary.
  <p>The Liskov Substitution Principle helps us determine if inheritance has been used correctly. If the expected behaviour between the subclass and the base class is different, then the principle has been violated.</p>
  </div>
  
+
+
+
+<h3>Open/Closed Principle</h3>
+The open/closed principle states that classes should be open
+for extension but closed to change.
+A class is considered “closed” to editing once it has:
+● Been tested to be functioning properly. The class should
+behave as expected.
+● All the attributes and behaviors are encapsulated,
+● Been proven to be stable within your system. The class
+or any instance of the class should not stop your system
+from running or do it harm.
+Although the principle is called “closed”, it does not mean that
+changes cannot be made to a class during development. Things
+should change during the design and analysis phase of your
+development cycle. A “closed” class occurs when a point has
+been reached in development when most of the design
+decisions have been finalized and once you have implemented
+most of your system.
+During the lifecycle of your software, certain classes should be
+closed to further changes to avoid introducing undesirable side
+effects. A “closed” class should still be fixed if any bugs or
+unexpected behaviors occur.
+If a system needs to be extended or have more features added,
+then the “open” side of the principle comes into play. An “open”
+class is one that can still be built upon. There are two different
+ways to extend a system with the open principle.
+The first way is through the inheritance of a superclass.
+Inheritance can be used to simply extend a class that is
+considered closed when you want to add more attributes and
+behaviors. The subclasses will have the original functions of the
+superclass, but extra features can be added in the subclasses.
+This helps preserve the integrity of the superclass, so if the
+extra features of the subclasses are not needed, the original
+
