@@ -37,6 +37,16 @@ This pattern involves a single class which is responsible to create an object wh
 ### Proxy Pattern
 
 ### Decorator Pattern
+A structural pattern that allows additional behaviors or responsibilities to be dynamically attached to an object, through the use of aggregation to combine behaviors at run time.
+It is beneficial for software to have flexible combinations of overall behaviors. However, changes to classes cannot be made
+while a program is running, as the behavior of an object is defined by its class, and only occurs at compile time. A new
+class would need to be created in order to achieve a new combination of behaviors while a program is running. Lots of
+new combinations, however, would lead to lots of classes, which is undesirable. A decorator design pattern allows additional behaviors or
+responsibilities to be dynamically attached to an object, through the use of aggregation to combine behaviors at run
+time. It is a structural design pattern. As explained in the first course of this specialization,
+aggregation is a design principle used to represent a “has-a” or “weak containment” relationship between two objects. This can
+be used to build a stack of objects, also known as an “aggregation stack”, where each level of the stack contains an object that knows about its own behavior and augments the
+one underneath it.
 
 --------------------------
 
