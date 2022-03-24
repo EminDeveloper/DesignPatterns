@@ -29,6 +29,8 @@ This pattern involves a single class which is responsible to create an object wh
 ## Structural Patterns:
 
 ### Facade Pattern
+As systems or parts of systems become larger, they also become more complex. This is not necessarily a bad thing – if the scope of a problem is large, it may require a complex solution. Client classes function better with a simpler interaction, however. The façade design pattern attempts to resolve this issue by providing a single, simplified interface for client classes to interact with a subsystem. It is a structural design pattern.
+A façade is a wrapper class that encapsulates a subsystem in order to hide the subsystem’s complexity; it acts as a point of entry into a subsystem without adding more functionality in itself. The wrapper class allows a client class to interact with the subsystem through the façade. A facade might be compared metaphorically to a waiter or salesperson, who hides all the extra work to be done in order to purchase a good or service.
 
 ### Adapter Pattern
 
