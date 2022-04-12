@@ -38,7 +38,7 @@ A façade design pattern should therefore be used if there is a need to simplify
 4. Use the façade class to access the subsystem.
 
 
-### Adapter Pattern
+#### Adapter Pattern
 
 ### Composite Pattern
 
