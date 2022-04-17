@@ -13,6 +13,9 @@ known as “spaghetti code.”
 
 ## Creational Patterns:
 ------------------------------
+Creational patterns tackle how you handle creating or cloning new objects. Cloning an object occurs when you are creating an object that is similar to an existing one, and instead of instantiating a new object, you clone existing objects instead of instantiating them. Creational patterns depend on the programming language
+being used. Languages without the notion of classes, such as Javascript, would encourage you to clone an object and expand it to meet the purposes of those particular instances, called  prototypes. Javascript allows for changes to these prototypes at runtime. Languages that rely on classes, however, such as Java
+and C#, instantiate objects using specific classes defined at compile time. The different ways of creating objects will greatly influence how a problem is solved. Therefore, different languages therefore impact what patterns are possible to use. 
 
 
 ### Singleton Pattern
