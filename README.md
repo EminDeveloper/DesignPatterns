@@ -190,6 +190,7 @@ a handler can process the request.
 
 
 ### State Pattern
+State is a behavioral design pattern that lets an object alter its behavior when its internal state changes. It appears as if the object changed its class.
 Objects in your code are aware of their current state. They can
 choose an appropriate behavior based on their current state.
 When their current state changes, this behavior can be altered -
