@@ -49,6 +49,17 @@ The structural design patterns simplifies the structure by identifying the relat
 These patterns focus on, how the classes inherit from each other and how they are composed from other classes.
 1. Adapter Pattern
 Adapting an interface into another according to client expectation.
+This pattern is easy to understand as the real world is full of adapters.   For example consider a USB to Ethernet adapter. We need this when we have an Ethernet interface on one end and USB on the other. Since they are incompatible with each other. we use an adapter that converts one to other. This example is pretty analogous to Object Oriented Adapters. In design, adapters are used when we have a class (Client) expecting some type of object and we have an object (Adaptee) offering the same features but exposing a different interface.
+
+To use an adapter:
+
+The client makes a request to the adapter by calling a method on it using the target interface.
+The adapter translates that request on the adaptee using the adaptee interface.
+Client receive the results of the call and is unaware of adapter’s presence.
+Definition:
+
+The adapter pattern convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
+The client sees only the target interface and not the adapter. The adapter implements the target interface. Adapter delegates all requests to Adaptee.
 
 2. Bridge Pattern
 Separating abstraction (interface) from implementation.
