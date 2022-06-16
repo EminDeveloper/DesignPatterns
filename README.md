@@ -63,7 +63,9 @@ The client sees only the target interface and not the adapter. The adapter imple
 
 2. Bridge Pattern
 Separating abstraction (interface) from implementation.
-
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+ Use the Bridge pattern when you want to divide and organize a monolithic class that has several variants of some functionality (for example, if the class can work with various database servers).
+ 
 3. Composite Pattern
 Allowing clients to operate on hierarchy of objects.
 
