@@ -68,7 +68,12 @@ Bridge is a structural design pattern that lets you split a large class or a set
  
 3. Composite Pattern
 Allowing clients to operate on hierarchy of objects.
+Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+Using the Composite pattern makes sense only when the core model of your app can be represented as a tree.
+Use the Composite pattern when you have to implement a tree-like object structure.
 
+ The Composite pattern provides you with two basic element types that share a common interface: simple leaves and complex containers. A container can be composed of both leaves and other containers. This lets you construct a nested recursive object structure that resembles a tree.
+ 
 4. Decorator Pattern
 Adding functionality to an object dynamically.
 
