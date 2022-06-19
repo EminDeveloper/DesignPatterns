@@ -82,6 +82,9 @@ In object-oriented programming, the decorator pattern is a design pattern that a
 
 5. Facade Pattern
 Providing an interface to a set of interfaces.
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
 
 6. Flyweight Pattern
 Reusing an object by sharing it.
