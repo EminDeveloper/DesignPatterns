@@ -87,7 +87,7 @@ Facade pattern hides the complexities of the system and provides an interface to
 This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
 
 6. Flyweight Pattern
-Reusing an object by sharing it.
+Reusing an object by sharing it. Flyweight is a structural design pattern that lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
 
 7. Proxy Pattern
 Representing another object.
