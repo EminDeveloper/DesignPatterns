@@ -124,7 +124,7 @@ Definition:
 
 The adapter pattern convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn’t otherwise because of incompatible interfaces.
 
-### Composite Pattern
+###### Composite Pattern
 Composite is a structural design pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
 Using the Composite pattern makes sense only when the core model of your app can be represented as a tree.
 
